@@ -21,5 +21,5 @@ def add_todo():
 
 st.text_input(label="Enter a todo", placeholder="Enter a todo",
               key="new_todo", on_change=add_todo)
-st.session_state
+
 
